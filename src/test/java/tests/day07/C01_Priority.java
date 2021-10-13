@@ -48,6 +48,7 @@ public class C01_Priority {
 
     @AfterMethod
     public void tearDown(){
+
         driver.quit();
     }
 
