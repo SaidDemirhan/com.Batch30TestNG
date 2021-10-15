@@ -32,6 +32,8 @@ public class C01_WindowHandle extends TestBase {
         driver.findElement(By.linkText("Click Here")).click();
         // 2- ikinci adim iki sayfa acildiginda her iki sayfanin handle degerlerini koymak icin
         //   bir set olusturup, getWindowhandles methodu ile bu degerleri elde etmek
+
+
         Set<String> tumWindowHandlelari = driver.getWindowHandles();
         System.out.println("Tum Handlelar : "+tumWindowHandlelari);
         // 3- ucuncu adim set icerisinde birinci sayfanin handle degerine esit olmayan
